@@ -19,7 +19,6 @@ It helps players keep a consistent experience when switching between FPS games, 
 ---
 
 ## 🖼️ Project preview  
-(Add a screenshot named `preview.png` in the root of the repository to show it here)  
 Example:  
 
 ![ConvertAim Demo](./preview.png)  
