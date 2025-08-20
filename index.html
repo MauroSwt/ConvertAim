@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ConvertAim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 ConvertAim</h1>
+    <p>Converta sua sensibilidade entre Valorant, CS2, Fortnite, Minecraft e Paladins.</p>
+
+    <label for="game">Jogo de origem:</label>
+    <select id="game">
+      <option value="valorant">Valorant</option>
+      <option value="cs2">CS2</option>
+      <option value="fortnite">Fortnite</option>
+      <option value="minecraft">Minecraft</option>
+      <option value="paladins">Paladins</option>
+    </select>
+
+    <label for="sensitivity">Sensibilidade:</label>
+    <input type="number" id="sensitivity" step="0.01" placeholder="Ex: 0.5" />
+
+    <button onclick="convertSensitivity()">Converter</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
